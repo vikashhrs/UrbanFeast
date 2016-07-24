@@ -16,8 +16,10 @@ public class MainActivity extends AppCompatActivity {
         String status=sharedPreferences.getString("flagValue","NULL");
         if(status.matches("CLI") || status.matches("GLI") || status.matches("FLI")){
             startActivity(new Intent(getApplicationContext(),HomeActivity.class));
+            finish();
         }else{
-            startActivity(new Intent(getApplicationContext(),LogInActivity.class));
+            startActivity(new Intent(getApplicationContext(),SampleLogInActivity.class));
+            finish();
         }
     }
 }

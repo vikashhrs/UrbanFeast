@@ -112,7 +112,7 @@ public class LogInActivity extends Activity implements View.OnClickListener,Goog
                 .addConnectionCallbacks(this)
                 .addOnConnectionFailedListener(this).addApi(Plus.API)
                 .addScope(Plus.SCOPE_PLUS_LOGIN).build();
-        gPlusEmail=Plus.AccountApi.getAccountName(mGoogleApiClient);
+
     }
 
     @Override
