@@ -8,7 +8,10 @@
 /build
 /captures
 /*cocomo
-*.idea
+#*.idea
+
+#.idea/gradle.xml  -- contains gradle folder path in local machine
+#.idea/misc.xml   -- contains jdk path, version varies , but it should be uniform
 
 # .idea files contains project specific settings on local machine. In ordet to cause uniform configuration .idea files should be checked in
 
