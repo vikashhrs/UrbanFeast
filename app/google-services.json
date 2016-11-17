@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "675900970197",
+    "project_id": "firebase-urbanfeast"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675900970197:android:2e06c7f64465be7e",
+        "android_client_info": {
+          "package_name": "com.example.vikash.urbanfeast"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675900970197-vln926j6688rf9sr5cmv0cern09jvjfh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vikash.urbanfeast",
+            "certificate_hash": "6437E56737D977895EFE737A3B44D24A68206732"
+          }
+        },
+        {
+          "client_id": "675900970197-47lsqecojcji0p29l6pmgjuqt71p47ht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzN-CQ8ut7WiVtEONGaiezMjeZLauCS1s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
