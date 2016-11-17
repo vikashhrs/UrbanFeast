@@ -32,13 +32,12 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".LogInActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar" />........................................................................................
         <activity
             android:name="com.facebook.FacebookActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-            android:label="@string/app_name"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-        <activity android:name=".SampleLogInActivity"></activity>
+            android:label="@string/app_name" />
+        <activity android:name=".SampleLogInActivity"/>
     </application>
 
 </manifest>
