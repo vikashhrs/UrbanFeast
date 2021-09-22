@@ -3,17 +3,6 @@
 /local.properties
 /.idea/workspace.xml
 /.idea/libraries
-/.idea/gradle.xml
 .DS_Store
 /build
 /captures
-/*cocomo
-#*.idea
-
-#.idea/gradle.xml  -- contains gradle folder path in local machine
-#.idea/misc.xml   -- contains jdk path, version varies , but it should be uniform
-
-# .idea files contains project specific settings on local machine. In ordet to cause uniform configuration .idea files should be checked in
-
-# http://stackoverflow.com/questions/16736856/what-should-be-in-my-gitignore-for-an-android-studio-project
-# please go through the following links for structure related change
